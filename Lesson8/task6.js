@@ -1,5 +1,11 @@
-const numbersList = [1, 10, 14, 2, 4, 5, 43, 34];
-let sortedArray = numbersList.map((number) => number).sort((a, b) => a - b);
+const arr = [1, 2, 2, 3, 4, 4, 5];
+const uniqueValues = Array.from(new Set(arr)); // [1, 2, 3, 4, 5]
+console.log(uniqueValues)
 
-console.log(numbersList);
-console.log(sortedArray);
+// for (let i = 0; i < test.length; i++) {
+//     console.log(test[i]);
+// }
+
+// for (let number of test) {
+//     console.log(number);
+// }
