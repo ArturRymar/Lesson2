@@ -1,8 +1,8 @@
 let book = {
-    title: "JavaScript",
-    author: "Unknown",
-    year: 2025
+  title: "JavaScript",
+  author: "Unknown",
+  year: 2025,
 };
 
-let { title : bookTitle, author : bookAuthor } = book;
+let { title: bookTitle, author: bookAuthor } = book;
 console.log(bookTitle, bookAuthor);
